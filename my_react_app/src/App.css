@@ -38,7 +38,7 @@
 }
 
 .card{
-  display: inline-flex;
+  display: inline-flex !important;
   width: 50%;
   flex-direction: row;
 }

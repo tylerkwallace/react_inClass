@@ -1,8 +1,11 @@
 import { Component } from 'react';
-import Cards from "./Cards"
-import MyNavBar from "./MyNavBar"
 import { Jumbotron } from 'reactstrap';
+import Cards from "./Cards";
+import MyNavBar from "./MyNavBar";
 import './App.css';
+
+
+
 
 class App extends Component {
   constructor(props) {
@@ -25,7 +28,7 @@ class App extends Component {
           <p>Playing with reactstrap.</p>
           <p className={cname}></p>
         </Jumbotron>
-        <Cards className="cards"
+        <Cards
           fade1={this.state.fade1}
           cardOneState={this.cardOneState}
           fade2={this.state.fade2}
