@@ -3,7 +3,7 @@ import React from "react";
 const TextForCards = (props) =>{
     return(
         <div>
-            Text from card ${props.cardNum}
+            <p>Text from card {props.cardNum}</p>
         </div>
     )
 }

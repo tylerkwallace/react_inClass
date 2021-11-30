@@ -39,11 +39,15 @@
 
 .card{
   display: inline-flex !important;
-  width: 50%;
+  width: 100%;
   flex-direction: row;
 }
 
 .modalImage{
   width: 100%;
   height: auto;
+}
+
+p{
+  font-size: large;
 }
