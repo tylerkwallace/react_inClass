@@ -1,7 +1,8 @@
 import { Component } from 'react';
-import { Jumbotron } from 'reactstrap';
 import Cards from "./Cards";
 import MyNavBar from "./MyNavBar";
+import MyCarousel from "./MyCarousel";
+import MyModal from './MyModal';
 import './App.css';
 
 
@@ -17,24 +18,17 @@ class App extends Component {
   }
 
   render() {
-    let cname = "lead";
     return (
       <div>
         <MyNavBar />
-        <Jumbotron>
-          <h1 className="display-3">My First React App</h1>
-          <p className={cname}>This is my first attempt at it.</p>
-          <hr className={"my-2"} />
-          <p>Playing with reactstrap.</p>
-          <p className={cname}></p>
-        </Jumbotron>
+        <MyCarousel />
+        <MyModal />
         <Cards
           fade1={this.state.fade1}
           cardOneState={this.cardOneState}
           fade2={this.state.fade2}
           cardTwoState={this.cardTwoState}
         />
-        
       </div>
     )
   }

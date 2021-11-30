@@ -42,3 +42,8 @@
   width: 50%;
   flex-direction: row;
 }
+
+.modalImage{
+  width: 100%;
+  height: auto;
+}
