@@ -3,7 +3,7 @@ import Cards from './Cards';
 
 test('Card Loads', () => {
     render(<Cards />);
-    const linkElement = screen.getByText(/My Card/i);
+    const linkElement = screen.getByText(/First Card/i);
     expect(linkElement).toBeInTheDocument();
 });
 
